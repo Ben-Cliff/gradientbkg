@@ -1,0 +1,33 @@
+*{
+
+	font-family: fantasy;
+}
+
+@keyframes heading{
+
+	0%{text-align: left;}
+	50% {text-align: center;}
+	100%{ text-align: right; font-family: calibri; }
+}
+
+h1{
+
+	animation-name: heading;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+body{
+
+	text-align: center;
+	background: linear-gradient(to right, #ff0000, #ff00ff)
+
+}
+.container{
+
+	border-radius: 8px;
+	margin: 100px;
+	border: solid black;
+	background-color: white;
+	height: 300px;
+}
